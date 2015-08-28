@@ -15,6 +15,7 @@
 		D4E120A11B9024EA0037A7D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */; };
 		D4E120AD1B9024EA0037A7D8 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120AC1B9024EA0037A7D8 /* gittestTests.m */; };
 		D4E120B81B9025A10037A7D8 /* fone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120B71B9025A10037A7D8 /* fone.m */; };
+		D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BD1B90283E0037A7D8 /* branch_one.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		D4E120AC1B9024EA0037A7D8 /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
 		D4E120B61B9025A10037A7D8 /* fone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fone.h; sourceTree = "<group>"; };
 		D4E120B71B9025A10037A7D8 /* fone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fone.m; sourceTree = "<group>"; };
+		D4E120BC1B90283E0037A7D8 /* branch_one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = branch_one.h; sourceTree = "<group>"; };
+		D4E120BD1B90283E0037A7D8 /* branch_one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = branch_one.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				D4E120901B9024EA0037A7D8 /* Supporting Files */,
 				D4E120B61B9025A10037A7D8 /* fone.h */,
 				D4E120B71B9025A10037A7D8 /* fone.m */,
+				D4E120BC1B90283E0037A7D8 /* branch_one.h */,
+				D4E120BD1B90283E0037A7D8 /* branch_one.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
+				D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
