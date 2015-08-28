@@ -10,4 +10,7 @@
 
 @implementation fone
 
+- (void)func2{
+    NSLog(@"function2");
+}
 @end
