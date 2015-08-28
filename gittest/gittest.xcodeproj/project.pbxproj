@@ -16,6 +16,7 @@
 		D4E120AD1B9024EA0037A7D8 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120AC1B9024EA0037A7D8 /* gittestTests.m */; };
 		D4E120B81B9025A10037A7D8 /* fone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120B71B9025A10037A7D8 /* fone.m */; };
 		D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BD1B90283E0037A7D8 /* branch_one.m */; };
+		D4E120C41B903D760037A7D8 /* f1.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120C31B903D760037A7D8 /* f1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		D4E120B71B9025A10037A7D8 /* fone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fone.m; sourceTree = "<group>"; };
 		D4E120BC1B90283E0037A7D8 /* branch_one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = branch_one.h; sourceTree = "<group>"; };
 		D4E120BD1B90283E0037A7D8 /* branch_one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = branch_one.m; sourceTree = "<group>"; };
+		D4E120C21B903D760037A7D8 /* f1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f1.h; sourceTree = "<group>"; };
+		D4E120C31B903D760037A7D8 /* f1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				D4E120B71B9025A10037A7D8 /* fone.m */,
 				D4E120BC1B90283E0037A7D8 /* branch_one.h */,
 				D4E120BD1B90283E0037A7D8 /* branch_one.m */,
+				D4E120C21B903D760037A7D8 /* f1.h */,
+				D4E120C31B903D760037A7D8 /* f1.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			files = (
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
 				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
+				D4E120C41B903D760037A7D8 /* f1.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 				D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */,
