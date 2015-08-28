@@ -14,6 +14,7 @@
 		D4E1209E1B9024EA0037A7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209D1B9024EA0037A7D8 /* Images.xcassets */; };
 		D4E120A11B9024EA0037A7D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */; };
 		D4E120AD1B9024EA0037A7D8 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120AC1B9024EA0037A7D8 /* gittestTests.m */; };
+		D4E120B81B9025A10037A7D8 /* fone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120B71B9025A10037A7D8 /* fone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D4E120A61B9024EA0037A7D8 /* gittestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120AB1B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120AC1B9024EA0037A7D8 /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
+		D4E120B61B9025A10037A7D8 /* fone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fone.h; sourceTree = "<group>"; };
+		D4E120B71B9025A10037A7D8 /* fone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D4E1209D1B9024EA0037A7D8 /* Images.xcassets */,
 				D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */,
 				D4E120901B9024EA0037A7D8 /* Supporting Files */,
+				D4E120B61B9025A10037A7D8 /* fone.h */,
+				D4E120B71B9025A10037A7D8 /* fone.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
+				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				D4E120B21B9024EA0037A7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E120B31B9024EA0037A7D8 /* Build configuration list for PBXNativeTarget "gittestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				D4E120B51B9024EA0037A7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
