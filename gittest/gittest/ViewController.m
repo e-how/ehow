@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 /*
+ 消除project.pbxproj 文件冲突
 projectfile=`find -d . -name 'project.pbxproj'`
 projectdir=`echo *.xcodeproj`
 projectfile="${projectdir}/project.pbxproj"
