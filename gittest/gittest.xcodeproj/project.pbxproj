@@ -76,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D47456411B9447F6004D58BC /* fone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fone;
+			sourceTree = "<group>";
+		};
 		D4E120841B9024EA0037A7D8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +104,7 @@
 		D4E1208F1B9024EA0037A7D8 /* gittest */ = {
 			isa = PBXGroup;
 			children = (
+				D47456411B9447F6004D58BC /* fone */,
 				D4E120941B9024EA0037A7D8 /* AppDelegate.h */,
 				D4E120951B9024EA0037A7D8 /* AppDelegate.m */,
 				D4E120971B9024EA0037A7D8 /* ViewController.h */,
