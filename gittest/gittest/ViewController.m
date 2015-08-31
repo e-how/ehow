@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"master master");
+    NSLog(@"master master master master");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
