@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D47455A61B941BD4004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A31B941BD4004D58BC /* AVOSCloud.framework */; };
+		D47455A71B941BD4004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A51B941BD4004D58BC /* AVOSCloud.framework */; };
+		D47455A91B941DC2004D58BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A81B941DC2004D58BC /* SystemConfiguration.framework */; };
+		D47455AB1B941DD3004D58BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455AA1B941DD3004D58BC /* MobileCoreServices.framework */; };
+		D47455AD1B941DDD004D58BC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455AC1B941DDC004D58BC /* CoreTelephony.framework */; };
+		D47455AF1B941DE9004D58BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455AE1B941DE9004D58BC /* CoreLocation.framework */; };
+		D47455B11B941DF8004D58BC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455B01B941DF8004D58BC /* libicucore.dylib */; };
+		D47455B21B941ED5004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A31B941BD4004D58BC /* AVOSCloud.framework */; };
+		D47455B31B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A31B941BD4004D58BC /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D47455B41B941ED5004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A51B941BD4004D58BC /* AVOSCloud.framework */; };
+		D47455B51B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A51B941BD4004D58BC /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4A1D68F1B93EA200090F3C4 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D68E1B93EA200090F3C4 /* one.m */; };
 		D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6911B93F97D0090F3C4 /* f22.m */; };
 		D4A1D6951B93FC020090F3C4 /* helloworldone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6941B93FC020090F3C4 /* helloworldone.m */; };
 		D4A1D6981B9405330090F3C4 /* 11.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6971B9405330090F3C4 /* 11.m */; };
 		D4A1D69B1B9406A20090F3C4 /* master.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D69A1B9406A20090F3C4 /* master.m */; };
+		D4A1D69E1B9406E00090F3C4 /* 111.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D69D1B9406E00090F3C4 /* 111.m */; };
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -21,7 +33,6 @@
 		D4E120AD1B9024EA0037A7D8 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120AC1B9024EA0037A7D8 /* gittestTests.m */; };
 		D4E120B81B9025A10037A7D8 /* fone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120B71B9025A10037A7D8 /* fone.m */; };
 		D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BA1B90269A0037A7D8 /* f_two.m */; };
-		D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BD1B90283E0037A7D8 /* branch_one.m */; };
 		D4E120C41B903D760037A7D8 /* f1.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120C31B903D760037A7D8 /* f1.m */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +46,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D47455B61B941ED5004D58BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D47455B31B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */,
+				D47455B51B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D47455A31B941BD4004D58BC /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		D47455A51B941BD4004D58BC /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		D47455A81B941DC2004D58BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D47455AA1B941DD3004D58BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D47455AC1B941DDC004D58BC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D47455AE1B941DE9004D58BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D47455B01B941DF8004D58BC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		D4A1D68D1B93EA200090F3C4 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
 		D4A1D68E1B93EA200090F3C4 /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
 		D4A1D6901B93F97D0090F3C4 /* f22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f22.h; sourceTree = "<group>"; };
@@ -46,6 +79,8 @@
 		D4A1D6971B9405330090F3C4 /* 11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 11.m; sourceTree = "<group>"; };
 		D4A1D6991B9406A20090F3C4 /* master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = master.h; sourceTree = "<group>"; };
 		D4A1D69A1B9406A20090F3C4 /* master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = master.m; sourceTree = "<group>"; };
+		D4A1D69C1B9406E00090F3C4 /* 111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 111.h; sourceTree = "<group>"; };
+		D4A1D69D1B9406E00090F3C4 /* 111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 111.m; sourceTree = "<group>"; };
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,8 +98,6 @@
 		D4E120B71B9025A10037A7D8 /* fone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fone.m; sourceTree = "<group>"; };
 		D4E120B91B90269A0037A7D8 /* f_two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_two.h; sourceTree = "<group>"; };
 		D4E120BA1B90269A0037A7D8 /* f_two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_two.m; sourceTree = "<group>"; };
-		D4E120BC1B90283E0037A7D8 /* branch_one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = branch_one.h; sourceTree = "<group>"; };
-		D4E120BD1B90283E0037A7D8 /* branch_one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = branch_one.m; sourceTree = "<group>"; };
 		D4E120C21B903D760037A7D8 /* f1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f1.h; sourceTree = "<group>"; };
 		D4E120C31B903D760037A7D8 /* f1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +107,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47455B11B941DF8004D58BC /* libicucore.dylib in Frameworks */,
+				D47455AF1B941DE9004D58BC /* CoreLocation.framework in Frameworks */,
+				D47455AD1B941DDD004D58BC /* CoreTelephony.framework in Frameworks */,
+				D47455AB1B941DD3004D58BC /* MobileCoreServices.framework in Frameworks */,
+				D47455A91B941DC2004D58BC /* SystemConfiguration.framework in Frameworks */,
+				D47455A61B941BD4004D58BC /* AVOSCloud.framework in Frameworks */,
+				D47455A71B941BD4004D58BC /* AVOSCloud.framework in Frameworks */,
+				D47455B21B941ED5004D58BC /* AVOSCloud.framework in Frameworks */,
+				D47455B41B941ED5004D58BC /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,9 +129,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D47455A11B941BD4004D58BC /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				D47455A21B941BD4004D58BC /* Dynamic */,
+				D47455A41B941BD4004D58BC /* Static */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		D47455A21B941BD4004D58BC /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				D47455A31B941BD4004D58BC /* AVOSCloud.framework */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		D47455A41B941BD4004D58BC /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				D47455A51B941BD4004D58BC /* AVOSCloud.framework */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
 		D4E120841B9024EA0037A7D8 = {
 			isa = PBXGroup;
 			children = (
+				D47455B01B941DF8004D58BC /* libicucore.dylib */,
+				D47455AE1B941DE9004D58BC /* CoreLocation.framework */,
+				D47455AC1B941DDC004D58BC /* CoreTelephony.framework */,
+				D47455AA1B941DD3004D58BC /* MobileCoreServices.framework */,
+				D47455A81B941DC2004D58BC /* SystemConfiguration.framework */,
 				D4E1208F1B9024EA0037A7D8 /* gittest */,
 				D4E120A91B9024EA0037A7D8 /* gittestTests */,
 				D4E1208E1B9024EA0037A7D8 /* Products */,
@@ -108,6 +180,7 @@
 		D4E1208F1B9024EA0037A7D8 /* gittest */ = {
 			isa = PBXGroup;
 			children = (
+				D47455A11B941BD4004D58BC /* AVOSCloud */,
 				D4E120941B9024EA0037A7D8 /* AppDelegate.h */,
 				D4E120951B9024EA0037A7D8 /* AppDelegate.m */,
 				D4E120971B9024EA0037A7D8 /* ViewController.h */,
@@ -120,8 +193,6 @@
 				D4E120B71B9025A10037A7D8 /* fone.m */,
 				D4E120B91B90269A0037A7D8 /* f_two.h */,
 				D4E120BA1B90269A0037A7D8 /* f_two.m */,
-				D4E120BC1B90283E0037A7D8 /* branch_one.h */,
-				D4E120BD1B90283E0037A7D8 /* branch_one.m */,
 				D4E120C21B903D760037A7D8 /* f1.h */,
 				D4E120C31B903D760037A7D8 /* f1.m */,
 				D4A1D68D1B93EA200090F3C4 /* one.h */,
@@ -134,6 +205,8 @@
 				D4A1D6971B9405330090F3C4 /* 11.m */,
 				D4A1D6991B9406A20090F3C4 /* master.h */,
 				D4A1D69A1B9406A20090F3C4 /* master.m */,
+				D4A1D69C1B9406E00090F3C4 /* 111.h */,
+				D4A1D69D1B9406E00090F3C4 /* 111.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -174,6 +247,7 @@
 				D4E120891B9024EA0037A7D8 /* Sources */,
 				D4E1208A1B9024EA0037A7D8 /* Frameworks */,
 				D4E1208B1B9024EA0037A7D8 /* Resources */,
+				D47455B61B941ED5004D58BC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,9 +287,11 @@
 				TargetAttributes = {
 					D4E1208C1B9024EA0037A7D8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3G7G325GTC;
 					};
 					D4E120A51B9024EA0037A7D8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3G7G325GTC;
 						TestTargetID = D4E1208C1B9024EA0037A7D8;
 					};
 				};
@@ -266,6 +342,7 @@
 			files = (
 				D4A1D68F1B93EA200090F3C4 /* one.m in Sources */,
 				D4A1D69B1B9406A20090F3C4 /* master.m in Sources */,
+				D4A1D69E1B9406E00090F3C4 /* 111.m in Sources */,
 				D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */,
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
 				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
@@ -275,8 +352,6 @@
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 				D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */,
 				D4A1D6981B9405330090F3C4 /* 11.m in Sources */,
-				D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */,
-				D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +410,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -357,6 +433,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -378,7 +455,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -393,6 +471,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -402,9 +481,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Static",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Static",
+				);
 				INFOPLIST_FILE = gittest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,9 +506,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Static",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Static",
+				);
 				INFOPLIST_FILE = gittest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -422,6 +531,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -433,6 +544,7 @@
 				INFOPLIST_FILE = gittestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittest.app/gittest";
 			};
 			name = Debug;
@@ -441,6 +553,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -448,6 +562,7 @@
 				INFOPLIST_FILE = gittestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittest.app/gittest";
 			};
 			name = Release;
