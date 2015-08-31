@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D47456401B94465D004D58BC /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D474563F1B94465D004D58BC /* one.m */; };
 		D47456451B9449F0004D58BC /* f_one.m in Sources */ = {isa = PBXBuildFile; fileRef = D47456441B9449F0004D58BC /* f_one.m */; };
+		D474564B1B944E68004D58BC /* f_onetest.m in Sources */ = {isa = PBXBuildFile; fileRef = D474564A1B944E68004D58BC /* f_onetest.m */; };
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -47,6 +48,8 @@
 		D474563F1B94465D004D58BC /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
 		D47456431B9449F0004D58BC /* f_one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_one.h; sourceTree = "<group>"; };
 		D47456441B9449F0004D58BC /* f_one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_one.m; sourceTree = "<group>"; };
+		D47456491B944E68004D58BC /* f_onetest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_onetest.h; sourceTree = "<group>"; };
+		D474564A1B944E68004D58BC /* f_onetest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_onetest.m; sourceTree = "<group>"; };
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 			children = (
 				D47456431B9449F0004D58BC /* f_one.h */,
 				D47456441B9449F0004D58BC /* f_one.m */,
+				D47456491B944E68004D58BC /* f_onetest.h */,
+				D474564A1B944E68004D58BC /* f_onetest.m */,
 			);
 			path = fone;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
 				D47456401B94465D004D58BC /* one.m in Sources */,
+				D474564B1B944E68004D58BC /* f_onetest.m in Sources */,
 				D47456451B9449F0004D58BC /* f_one.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 				D4E120C11B903C9D0037A7D8 /* f2.m in Sources */,
