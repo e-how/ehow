@@ -9,5 +9,7 @@
 #import "f_two.h"
 
 @implementation f_two
-
+- (void)ftwo{
+    NSLog(@"ftwo");
+}
 @end
