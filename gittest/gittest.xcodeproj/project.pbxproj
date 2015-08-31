@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		D4A1D68F1B93EA200090F3C4 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D68E1B93EA200090F3C4 /* one.m */; };
-
 		D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6911B93F97D0090F3C4 /* f22.m */; };
-
+		D4A1D6951B93FC020090F3C4 /* helloworldone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6941B93FC020090F3C4 /* helloworldone.m */; };
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -36,13 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-
 		D4A1D68D1B93EA200090F3C4 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
 		D4A1D68E1B93EA200090F3C4 /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
-
 		D4A1D6901B93F97D0090F3C4 /* f22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f22.h; sourceTree = "<group>"; };
 		D4A1D6911B93F97D0090F3C4 /* f22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f22.m; sourceTree = "<group>"; };
-
+		D4A1D6931B93FC020090F3C4 /* helloworldone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helloworldone.h; sourceTree = "<group>"; };
+		D4A1D6941B93FC020090F3C4 /* helloworldone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helloworldone.m; sourceTree = "<group>"; };
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,13 +118,12 @@
 				D4E120BD1B90283E0037A7D8 /* branch_one.m */,
 				D4E120C21B903D760037A7D8 /* f1.h */,
 				D4E120C31B903D760037A7D8 /* f1.m */,
-
 				D4A1D68D1B93EA200090F3C4 /* one.h */,
 				D4A1D68E1B93EA200090F3C4 /* one.m */,
-
 				D4A1D6901B93F97D0090F3C4 /* f22.h */,
 				D4A1D6911B93F97D0090F3C4 /* f22.m */,
-
+				D4A1D6931B93FC020090F3C4 /* helloworldone.h */,
+				D4A1D6941B93FC020090F3C4 /* helloworldone.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -258,15 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				D4A1D68F1B93EA200090F3C4 /* one.m in Sources */,
-
 				D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */,
-
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
 				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
 				D4E120C41B903D760037A7D8 /* f1.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
+				D4A1D6951B93FC020090F3C4 /* helloworldone.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 				D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */,
 				D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */,
