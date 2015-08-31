@@ -10,9 +10,12 @@
 		D47456401B94465D004D58BC /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D474563F1B94465D004D58BC /* one.m */; };
 		D47456451B9449F0004D58BC /* f_one.m in Sources */ = {isa = PBXBuildFile; fileRef = D47456441B9449F0004D58BC /* f_one.m */; };
 		D47456481B944A20004D58BC /* f_two.m in Sources */ = {isa = PBXBuildFile; fileRef = D47456471B944A20004D58BC /* f_two.m */; };
+<<<<<<< HEAD
 		D47456511B94502E004D58BC /* 202.m in Sources */ = {isa = PBXBuildFile; fileRef = D47456501B94502E004D58BC /* 202.m */; };
+=======
 		D474564B1B944E68004D58BC /* f_onetest.m in Sources */ = {isa = PBXBuildFile; fileRef = D474564A1B944E68004D58BC /* f_onetest.m */; };
 		D474564E1B945008004D58BC /* 101.m in Sources */ = {isa = PBXBuildFile; fileRef = D474564D1B945008004D58BC /* 101.m */; };
+>>>>>>> f_one
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -53,12 +56,15 @@
 		D47456441B9449F0004D58BC /* f_one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_one.m; sourceTree = "<group>"; };
 		D47456461B944A20004D58BC /* f_two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_two.h; sourceTree = "<group>"; };
 		D47456471B944A20004D58BC /* f_two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_two.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		D474564F1B94502E004D58BC /* 202.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 202.h; sourceTree = "<group>"; };
 		D47456501B94502E004D58BC /* 202.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 202.m; sourceTree = "<group>"; };
+=======
 		D47456491B944E68004D58BC /* f_onetest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_onetest.h; sourceTree = "<group>"; };
 		D474564A1B944E68004D58BC /* f_onetest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_onetest.m; sourceTree = "<group>"; };
 		D474564C1B945008004D58BC /* 101.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 101.h; sourceTree = "<group>"; };
 		D474564D1B945008004D58BC /* 101.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 101.m; sourceTree = "<group>"; };
+>>>>>>> f_one
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -289,11 +295,14 @@
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
 				D47456401B94465D004D58BC /* one.m in Sources */,
+<<<<<<< HEAD
 				D47456481B944A20004D58BC /* f_two.m in Sources */,
 				D47456511B94502E004D58BC /* 202.m in Sources */,
+=======
 				D474564E1B945008004D58BC /* 101.m in Sources */,
 				D474564B1B944E68004D58BC /* f_onetest.m in Sources */,
 				D47456481B944A20004D58BC /* f_two.m in Sources */,
+>>>>>>> f_one
 				D47456451B9449F0004D58BC /* f_one.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 				D4E120C11B903C9D0037A7D8 /* f2.m in Sources */,
