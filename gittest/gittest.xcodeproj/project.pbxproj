@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D47455A61B941BD4004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A31B941BD4004D58BC /* AVOSCloud.framework */; };
-		D47455A71B941BD4004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A51B941BD4004D58BC /* AVOSCloud.framework */; };
-		D47455A91B941DC2004D58BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A81B941DC2004D58BC /* SystemConfiguration.framework */; };
-		D47455AB1B941DD3004D58BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455AA1B941DD3004D58BC /* MobileCoreServices.framework */; };
-		D47455AD1B941DDD004D58BC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455AC1B941DDC004D58BC /* CoreTelephony.framework */; };
-		D47455AF1B941DE9004D58BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455AE1B941DE9004D58BC /* CoreLocation.framework */; };
-		D47455B11B941DF8004D58BC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455B01B941DF8004D58BC /* libicucore.dylib */; };
-		D47455B21B941ED5004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A31B941BD4004D58BC /* AVOSCloud.framework */; };
-		D47455B31B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A31B941BD4004D58BC /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D47455B41B941ED5004D58BC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A51B941BD4004D58BC /* AVOSCloud.framework */; };
-		D47455B51B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D47455A51B941BD4004D58BC /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4A1D68F1B93EA200090F3C4 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D68E1B93EA200090F3C4 /* one.m */; };
 		D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6911B93F97D0090F3C4 /* f22.m */; };
 		D4A1D6951B93FC020090F3C4 /* helloworldone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6941B93FC020090F3C4 /* helloworldone.m */; };
@@ -53,8 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D47455B31B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */,
-				D47455B51B941ED5004D58BC /* AVOSCloud.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,13 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D47455A31B941BD4004D58BC /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
-		D47455A51B941BD4004D58BC /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
-		D47455A81B941DC2004D58BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D47455AA1B941DD3004D58BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D47455AC1B941DDC004D58BC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		D47455AE1B941DE9004D58BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		D47455B01B941DF8004D58BC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		D4A1D68D1B93EA200090F3C4 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
 		D4A1D68E1B93EA200090F3C4 /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
 		D4A1D6901B93F97D0090F3C4 /* f22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f22.h; sourceTree = "<group>"; };
@@ -107,15 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D47455B11B941DF8004D58BC /* libicucore.dylib in Frameworks */,
-				D47455AF1B941DE9004D58BC /* CoreLocation.framework in Frameworks */,
-				D47455AD1B941DDD004D58BC /* CoreTelephony.framework in Frameworks */,
-				D47455AB1B941DD3004D58BC /* MobileCoreServices.framework in Frameworks */,
-				D47455A91B941DC2004D58BC /* SystemConfiguration.framework in Frameworks */,
-				D47455A61B941BD4004D58BC /* AVOSCloud.framework in Frameworks */,
-				D47455A71B941BD4004D58BC /* AVOSCloud.framework in Frameworks */,
-				D47455B21B941ED5004D58BC /* AVOSCloud.framework in Frameworks */,
-				D47455B41B941ED5004D58BC /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,39 +100,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D47455A11B941BD4004D58BC /* AVOSCloud */ = {
-			isa = PBXGroup;
-			children = (
-				D47455A21B941BD4004D58BC /* Dynamic */,
-				D47455A41B941BD4004D58BC /* Static */,
-			);
-			path = AVOSCloud;
-			sourceTree = "<group>";
-		};
-		D47455A21B941BD4004D58BC /* Dynamic */ = {
-			isa = PBXGroup;
-			children = (
-				D47455A31B941BD4004D58BC /* AVOSCloud.framework */,
-			);
-			path = Dynamic;
-			sourceTree = "<group>";
-		};
-		D47455A41B941BD4004D58BC /* Static */ = {
-			isa = PBXGroup;
-			children = (
-				D47455A51B941BD4004D58BC /* AVOSCloud.framework */,
-			);
-			path = Static;
-			sourceTree = "<group>";
-		};
 		D4E120841B9024EA0037A7D8 = {
 			isa = PBXGroup;
 			children = (
-				D47455B01B941DF8004D58BC /* libicucore.dylib */,
-				D47455AE1B941DE9004D58BC /* CoreLocation.framework */,
-				D47455AC1B941DDC004D58BC /* CoreTelephony.framework */,
-				D47455AA1B941DD3004D58BC /* MobileCoreServices.framework */,
-				D47455A81B941DC2004D58BC /* SystemConfiguration.framework */,
 				D4E1208F1B9024EA0037A7D8 /* gittest */,
 				D4E120A91B9024EA0037A7D8 /* gittestTests */,
 				D4E1208E1B9024EA0037A7D8 /* Products */,
@@ -180,7 +121,6 @@
 		D4E1208F1B9024EA0037A7D8 /* gittest */ = {
 			isa = PBXGroup;
 			children = (
-				D47455A11B941BD4004D58BC /* AVOSCloud */,
 				D4E120941B9024EA0037A7D8 /* AppDelegate.h */,
 				D4E120951B9024EA0037A7D8 /* AppDelegate.m */,
 				D4E120971B9024EA0037A7D8 /* ViewController.h */,

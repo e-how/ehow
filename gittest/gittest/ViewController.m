@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AVOSCloud/AVOSCloud.h>;
+
 
 @interface ViewController ()
 
@@ -16,16 +16,13 @@
 @implementation ViewController
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [AVAnalytics beginLogPageView:@"PageOne"];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     NSLog(@"master master master master");
     
-    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
-    [testObject setObject:@"bar" forKey:@"foo"];
-    [testObject save];
+
 
     // Do any additional setup after loading the view, typically from a nib.
 }
