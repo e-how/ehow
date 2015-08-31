@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D47456401B94465D004D58BC /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D474563F1B94465D004D58BC /* one.m */; };
+		D47456481B944A20004D58BC /* f_two.m in Sources */ = {isa = PBXBuildFile; fileRef = D47456471B944A20004D58BC /* f_two.m */; };
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		D474563E1B94465D004D58BC /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
 		D474563F1B94465D004D58BC /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
+		D47456461B944A20004D58BC /* f_two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_two.h; sourceTree = "<group>"; };
+		D47456471B944A20004D58BC /* f_two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_two.m; sourceTree = "<group>"; };
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 		D47456421B944998004D58BC /* ftwo */ = {
 			isa = PBXGroup;
 			children = (
+				D47456461B944A20004D58BC /* f_two.h */,
+				D47456471B944A20004D58BC /* f_two.m */,
 			);
 			path = ftwo;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
 				D47456401B94465D004D58BC /* one.m in Sources */,
+				D47456481B944A20004D58BC /* f_two.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
 				D4E120C11B903C9D0037A7D8 /* f2.m in Sources */,
 			);
