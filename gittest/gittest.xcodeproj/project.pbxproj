@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D47456401B94465D004D58BC /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D474563F1B94465D004D58BC /* one.m */; };
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -14,10 +15,13 @@
 		D4E1209E1B9024EA0037A7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209D1B9024EA0037A7D8 /* Images.xcassets */; };
 		D4E120A11B9024EA0037A7D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */; };
 		D4E120AD1B9024EA0037A7D8 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120AC1B9024EA0037A7D8 /* gittestTests.m */; };
+
 		D4E120B81B9025A10037A7D8 /* fone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120B71B9025A10037A7D8 /* fone.m */; };
 		D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BA1B90269A0037A7D8 /* f_two.m */; };
 		D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BD1B90283E0037A7D8 /* branch_one.m */; };
 		D4E120C11B903C9D0037A7D8 /* f2.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120C01B903C9D0037A7D8 /* f2.m */; };
+
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +34,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D47455B61B941ED5004D58BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D474563E1B94465D004D58BC /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		D474563F1B94465D004D58BC /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +63,7 @@
 		D4E120A61B9024EA0037A7D8 /* gittestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120AB1B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120AC1B9024EA0037A7D8 /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
+
 		D4E120B61B9025A10037A7D8 /* fone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fone.h; sourceTree = "<group>"; };
 		D4E120B71B9025A10037A7D8 /* fone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fone.m; sourceTree = "<group>"; };
 		D4E120B91B90269A0037A7D8 /* f_two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_two.h; sourceTree = "<group>"; };
@@ -52,6 +72,8 @@
 		D4E120BD1B90283E0037A7D8 /* branch_one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = branch_one.m; sourceTree = "<group>"; };
 		D4E120BF1B903C9D0037A7D8 /* f2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f2.h; sourceTree = "<group>"; };
 		D4E120C01B903C9D0037A7D8 /* f2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f2.m; sourceTree = "<group>"; };
+
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +94,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D47456411B9447F6004D58BC /* fone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fone;
+			sourceTree = "<group>";
+		};
 		D4E120841B9024EA0037A7D8 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +122,7 @@
 		D4E1208F1B9024EA0037A7D8 /* gittest */ = {
 			isa = PBXGroup;
 			children = (
+				D47456411B9447F6004D58BC /* fone */,
 				D4E120941B9024EA0037A7D8 /* AppDelegate.h */,
 				D4E120951B9024EA0037A7D8 /* AppDelegate.m */,
 				D4E120971B9024EA0037A7D8 /* ViewController.h */,
@@ -101,6 +131,7 @@
 				D4E1209D1B9024EA0037A7D8 /* Images.xcassets */,
 				D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */,
 				D4E120901B9024EA0037A7D8 /* Supporting Files */,
+
 				D4E120B61B9025A10037A7D8 /* fone.h */,
 				D4E120B71B9025A10037A7D8 /* fone.m */,
 				D4E120BC1B90283E0037A7D8 /* branch_one.h */,
@@ -109,6 +140,10 @@
 				D4E120BA1B90269A0037A7D8 /* f_two.m */,
 				D4E120BF1B903C9D0037A7D8 /* f2.h */,
 				D4E120C01B903C9D0037A7D8 /* f2.m */,
+
+				D474563E1B94465D004D58BC /* one.h */,
+				D474563F1B94465D004D58BC /* one.m */,
+
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -149,6 +184,7 @@
 				D4E120891B9024EA0037A7D8 /* Sources */,
 				D4E1208A1B9024EA0037A7D8 /* Frameworks */,
 				D4E1208B1B9024EA0037A7D8 /* Resources */,
+				D47455B61B941ED5004D58BC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,9 +224,11 @@
 				TargetAttributes = {
 					D4E1208C1B9024EA0037A7D8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3G7G325GTC;
 					};
 					D4E120A51B9024EA0037A7D8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3G7G325GTC;
 						TestTargetID = D4E1208C1B9024EA0037A7D8;
 					};
 				};
@@ -240,12 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
-				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
+				D47456401B94465D004D58BC /* one.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
+
 				D4E120BE1B90283E0037A7D8 /* branch_one.m in Sources */,
 				D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */,
 				D4E120C11B903C9D0037A7D8 /* f2.m in Sources */,
+
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +345,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -326,6 +368,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -347,7 +390,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -362,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -371,9 +416,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Static",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Static",
+				);
 				INFOPLIST_FILE = gittest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -381,9 +441,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/AVOSCloud/Static",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Dynamic",
+					"$(PROJECT_DIR)/gittest/iOS-2/release-v3.1.3.4/AVOSCloud/Static",
+				);
 				INFOPLIST_FILE = gittest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -391,6 +466,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -402,6 +479,7 @@
 				INFOPLIST_FILE = gittestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittest.app/gittest";
 			};
 			name = Debug;
@@ -410,6 +488,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -417,6 +497,7 @@
 				INFOPLIST_FILE = gittestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittest.app/gittest";
 			};
 			name = Release;

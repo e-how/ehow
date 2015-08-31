@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  gittest
+//  831test
 //
-//  Created by 张益豪 on 15/8/28.
+//  Created by 张益豪 on 15/8/31.
 //  Copyright (c) 2015年 张益豪. All rights reserved.
 //
 
@@ -16,9 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    
-    NSLog(@"fone");
     // Override point for customization after application launch.
     return YES;
 }
