@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4A1D68F1B93EA200090F3C4 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D68E1B93EA200090F3C4 /* one.m */; };
-		D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6911B93F97D0090F3C4 /* f22.m */; };
-		D4A1D6951B93FC020090F3C4 /* helloworldone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6941B93FC020090F3C4 /* helloworldone.m */; };
-		D4A1D6981B9405330090F3C4 /* 11.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D6971B9405330090F3C4 /* 11.m */; };
-		D4A1D69B1B9406A20090F3C4 /* master.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D69A1B9406A20090F3C4 /* master.m */; };
-		D4A1D69E1B9406E00090F3C4 /* 111.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1D69D1B9406E00090F3C4 /* 111.m */; };
 		D4E120931B9024EA0037A7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120921B9024EA0037A7D8 /* main.m */; };
 		D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120951B9024EA0037A7D8 /* AppDelegate.m */; };
 		D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120981B9024EA0037A7D8 /* ViewController.m */; };
@@ -20,9 +14,6 @@
 		D4E1209E1B9024EA0037A7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209D1B9024EA0037A7D8 /* Images.xcassets */; };
 		D4E120A11B9024EA0037A7D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */; };
 		D4E120AD1B9024EA0037A7D8 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120AC1B9024EA0037A7D8 /* gittestTests.m */; };
-		D4E120B81B9025A10037A7D8 /* fone.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120B71B9025A10037A7D8 /* fone.m */; };
-		D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120BA1B90269A0037A7D8 /* f_two.m */; };
-		D4E120C41B903D760037A7D8 /* f1.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E120C31B903D760037A7D8 /* f1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +40,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D4A1D68D1B93EA200090F3C4 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
-		D4A1D68E1B93EA200090F3C4 /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
-		D4A1D6901B93F97D0090F3C4 /* f22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f22.h; sourceTree = "<group>"; };
-		D4A1D6911B93F97D0090F3C4 /* f22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f22.m; sourceTree = "<group>"; };
-		D4A1D6931B93FC020090F3C4 /* helloworldone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helloworldone.h; sourceTree = "<group>"; };
-		D4A1D6941B93FC020090F3C4 /* helloworldone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helloworldone.m; sourceTree = "<group>"; };
-		D4A1D6961B9405330090F3C4 /* 11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 11.h; sourceTree = "<group>"; };
-		D4A1D6971B9405330090F3C4 /* 11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 11.m; sourceTree = "<group>"; };
-		D4A1D6991B9406A20090F3C4 /* master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = master.h; sourceTree = "<group>"; };
-		D4A1D69A1B9406A20090F3C4 /* master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = master.m; sourceTree = "<group>"; };
-		D4A1D69C1B9406E00090F3C4 /* 111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 111.h; sourceTree = "<group>"; };
-		D4A1D69D1B9406E00090F3C4 /* 111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 111.m; sourceTree = "<group>"; };
 		D4E1208D1B9024EA0037A7D8 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120911B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120921B9024EA0037A7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,12 +53,6 @@
 		D4E120A61B9024EA0037A7D8 /* gittestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E120AB1B9024EA0037A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E120AC1B9024EA0037A7D8 /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
-		D4E120B61B9025A10037A7D8 /* fone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fone.h; sourceTree = "<group>"; };
-		D4E120B71B9025A10037A7D8 /* fone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fone.m; sourceTree = "<group>"; };
-		D4E120B91B90269A0037A7D8 /* f_two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_two.h; sourceTree = "<group>"; };
-		D4E120BA1B90269A0037A7D8 /* f_two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f_two.m; sourceTree = "<group>"; };
-		D4E120C21B903D760037A7D8 /* f1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f1.h; sourceTree = "<group>"; };
-		D4E120C31B903D760037A7D8 /* f1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = f1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,24 +102,6 @@
 				D4E1209D1B9024EA0037A7D8 /* Images.xcassets */,
 				D4E1209F1B9024EA0037A7D8 /* LaunchScreen.xib */,
 				D4E120901B9024EA0037A7D8 /* Supporting Files */,
-				D4E120B61B9025A10037A7D8 /* fone.h */,
-				D4E120B71B9025A10037A7D8 /* fone.m */,
-				D4E120B91B90269A0037A7D8 /* f_two.h */,
-				D4E120BA1B90269A0037A7D8 /* f_two.m */,
-				D4E120C21B903D760037A7D8 /* f1.h */,
-				D4E120C31B903D760037A7D8 /* f1.m */,
-				D4A1D68D1B93EA200090F3C4 /* one.h */,
-				D4A1D68E1B93EA200090F3C4 /* one.m */,
-				D4A1D6901B93F97D0090F3C4 /* f22.h */,
-				D4A1D6911B93F97D0090F3C4 /* f22.m */,
-				D4A1D6931B93FC020090F3C4 /* helloworldone.h */,
-				D4A1D6941B93FC020090F3C4 /* helloworldone.m */,
-				D4A1D6961B9405330090F3C4 /* 11.h */,
-				D4A1D6971B9405330090F3C4 /* 11.m */,
-				D4A1D6991B9406A20090F3C4 /* master.h */,
-				D4A1D69A1B9406A20090F3C4 /* master.m */,
-				D4A1D69C1B9406E00090F3C4 /* 111.h */,
-				D4A1D69D1B9406E00090F3C4 /* 111.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -280,18 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A1D68F1B93EA200090F3C4 /* one.m in Sources */,
-				D4A1D69B1B9406A20090F3C4 /* master.m in Sources */,
-				D4A1D69E1B9406E00090F3C4 /* 111.m in Sources */,
-				D4A1D6921B93F97D0090F3C4 /* f22.m in Sources */,
 				D4E120991B9024EA0037A7D8 /* ViewController.m in Sources */,
-				D4E120B81B9025A10037A7D8 /* fone.m in Sources */,
-				D4E120C41B903D760037A7D8 /* f1.m in Sources */,
 				D4E120961B9024EA0037A7D8 /* AppDelegate.m in Sources */,
-				D4A1D6951B93FC020090F3C4 /* helloworldone.m in Sources */,
 				D4E120931B9024EA0037A7D8 /* main.m in Sources */,
-				D4E120BB1B90269A0037A7D8 /* f_two.m in Sources */,
-				D4A1D6981B9405330090F3C4 /* 11.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
